@@ -10,8 +10,8 @@ package:
 source:
   fn: plyr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/plyr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/plyr/plyr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/plyr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/plyr/plyr_{{ version }}.tar.gz
   sha256: 60b522d75961007658c9806f8394db27989f1154727cb0bb970062c96ec9eac5
 
 
